@@ -17,7 +17,7 @@ I work on systems where correctness, scale, and operational reliability matter: 
 
 ## Experience
 
-### 2015 to 2019
+### 2016 to 2019
 
 R&D in online lending risk control:
 
