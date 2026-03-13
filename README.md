@@ -2,22 +2,53 @@
 
 ```text
 Apache Doris Committer
-Distributed Data Infrastructure Engineer
+Distributed Systems, Data Infrastructure, and Agent Engineering
 Shenzhen, China
 ```
 
-I build and debug systems close to the engine room of data infrastructure: query engines, metadata layers, external catalogs, execution correctness, and production-facing reliability.
+I work on systems where correctness, scale, and operational reliability matter: risk systems, data infrastructure, query engines, Java runtime diagnostics, and more recently, agent engineering.
 
 ## Snapshot
 
 - Apache Doris Committer
 - Public GitHub contribution peak: 2022 to 2024
-- Main domains: OLAP engines, distributed metadata, Hive/HMS, HDFS, SQL compatibility, reliability engineering
-- Recent focus: AI agents, code agents, and generalized development workflow design
+- Background across risk engineering, architecture, MPP systems, Java diagnostics, and agent workflows
+- Recent focus: agent systems, code agents, and standardized development workflow plugins
 
-## Contribution Track Record
+## Experience Arc
 
-My most visible open-source work is centered on Apache Doris.
+### 2015 to 2019
+
+Worked in R&D for risk control in online lending systems, including:
+
+- relationship graph modeling and graph-oriented risk analysis
+- feature engineering for risk decision systems
+- rule engine design and development
+- engineering work around practical credit risk workflows
+
+### 2019 to 2024
+
+Worked as a company architect while also contributing part-time to MPP and Doris-related work.
+
+Core areas included:
+
+- MPP / OLAP infrastructure and Apache Doris-related engineering
+- distributed metadata, external catalogs, and query correctness
+- Java performance diagnosis and runtime analysis
+- work based on Java Flight Recorder for production diagnostics and troubleshooting
+
+### 2024 to 2026
+
+Focused on the agent domain, especially:
+
+- studying the principles behind agent systems
+- building practical agent workflows instead of prompt-only demos
+- exploring code agents as an engineering interface
+- designing a standardized and generalized plugin-based development workflow around code agents
+
+## Open Source Track Record
+
+My most visible public open-source work is centered on Apache Doris.
 
 From public GitHub activity:
 
@@ -25,36 +56,20 @@ From public GitHub activity:
 - 2023: 83 pull requests, 19 issues
 - 2024: continued contributions in early 2024
 
-The pattern is consistent: I usually work on hard system boundaries rather than surface features.
+Typical areas of contribution:
 
-## What I Tend To Work On
-
-- Multi-catalog architecture and Hive Metastore integration
+- multi-catalog architecture and Hive Metastore integration
 - HDFS behavior, Kerberos edge cases, and external table reliability
 - SQL cache correctness across distributed FE nodes
 - Spark SQL and Trino dialect compatibility
-- Replay, metadata sync, failure recovery, and crash diagnosis
-- Query engine behavior where correctness matters more than demos
-
-## Recent Work
-
-Over the last two years, a meaningful part of my work has moved beyond public GitHub activity.
-
-I have been focusing on the agent domain, especially:
-
-- studying the principles behind agent systems
-- building practical agent workflows instead of prompt-only demos
-- exploring code agents as an engineering interface, not just a chat interface
-- designing a standardized and generalized plugin-based development workflow around code agents
-
-The direction I care about is not just making agents usable, but making them reliable enough to fit real software delivery workflows.
+- replay, metadata sync, failure recovery, and crash diagnosis
 
 ## Technical Profile
 
 - Languages: Java, C++, Python, Scala, SQL
 - Systems: Apache Doris, Spark ecosystem, Hive/HMS, HDFS
-- Current interests: agent architecture, code agents, workflow plugins, engineering automation
-- Strengths: root-cause analysis, distributed debugging, compatibility work, correctness under production pressure
+- Domains: risk engineering, feature engineering, rule engines, OLAP, distributed systems, agent workflows
+- Strengths: root-cause analysis, distributed debugging, compatibility work, runtime diagnostics, correctness under production pressure
 
 ## Working Style
 
