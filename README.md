@@ -15,54 +15,50 @@ I work on systems where correctness, scale, and operational reliability matter: 
 - Background across risk engineering, architecture, MPP systems, Java diagnostics, and agent workflows
 - Recent focus: agent systems, code agents, and standardized development workflow plugins
 
-## Experience Arc
+## Experience
 
 ### 2015 to 2019
 
-Worked in R&D for risk control in online lending systems, including:
+R&D in online lending risk control:
 
-- relationship graph modeling and graph-oriented risk analysis
-- feature engineering for risk decision systems
+- relationship graph and graph-based risk analysis
+- feature engineering for decision systems
 - rule engine design and development
-- engineering work around practical credit risk workflows
 
 ### 2019 to 2024
 
-Worked as a company architect while also contributing part-time to MPP and Doris-related work.
+Company architect, with parallel work on MPP and Doris-related systems:
 
-Core areas included:
-
-- MPP / OLAP infrastructure and Apache Doris-related engineering
+- MPP / OLAP infrastructure
 - distributed metadata, external catalogs, and query correctness
-- Java performance diagnosis and runtime analysis
-- work based on Java Flight Recorder for production diagnostics and troubleshooting
+- Java performance diagnosis and Java Flight Recorder based troubleshooting
 
 ### 2024 to 2026
 
-Focused on the agent domain, especially:
+Focused on agent engineering:
 
-- studying the principles behind agent systems
-- building practical agent workflows instead of prompt-only demos
-- exploring code agents as an engineering interface
-- designing a standardized and generalized plugin-based development workflow around code agents
+- agent principles and system design
+- practical agent workflows
+- code agents as an engineering interface
+- standardized, generalized plugin-based development workflows
 
 ## Open Source Track Record
 
 My most visible public open-source work is centered on Apache Doris.
 
-From public GitHub activity:
-
 - 2022: 25 pull requests, 10 issues
 - 2023: 83 pull requests, 19 issues
 - 2024: continued contributions in early 2024
 
-Typical areas of contribution:
+## Selected Areas
 
-- multi-catalog architecture and Hive Metastore integration
-- HDFS behavior, Kerberos edge cases, and external table reliability
+- Multi-catalog architecture and Hive Metastore integration
+- HDFS, Kerberos, and external table reliability
 - SQL cache correctness across distributed FE nodes
 - Spark SQL and Trino dialect compatibility
-- replay, metadata sync, failure recovery, and crash diagnosis
+- Replay, metadata sync, failure recovery, and crash diagnosis
+- Runtime diagnostics and production troubleshooting
+- Agent architecture and code-agent workflow standardization
 
 ## Technical Profile
 
