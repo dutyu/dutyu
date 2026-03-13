@@ -1,52 +1,57 @@
 # Xiangyu Wang
 
 ```text
-Distributed data infrastructure engineer
+Apache Doris Committer
+Distributed Data Infrastructure Engineer
 Shenzhen, China
 ```
 
-I work close to the engine room of data systems: query execution, metadata consistency, external catalogs, and the operational edges where distributed systems usually fail first.
+I build and debug systems close to the engine room of data infrastructure: query engines, metadata layers, external catalogs, execution correctness, and production-facing reliability.
 
-## Focus
+## Snapshot
 
-- OLAP and query engine internals
-- Distributed metadata and external catalog systems
-- Hive/HMS, HDFS, Kerberos, and production reliability
-- SQL dialect compatibility and execution correctness
-- Data infrastructure with practical interest in privacy-preserving computing and LLM tooling
+- Apache Doris Committer
+- Public GitHub contribution peak: 2022 to 2024
+- Main domains: OLAP engines, distributed metadata, Hive/HMS, HDFS, SQL compatibility, reliability engineering
 
-## Evidence From My Open Source Work
+## Contribution Track Record
 
-Most of my visible contribution trail is around Apache Doris, especially in areas such as:
+My most visible open-source work is centered on Apache Doris.
 
-- multi-catalog and Hive Metastore integration
-- HDFS edge cases and Kerberos-related stability fixes
-- SQL cache correctness across multiple FE nodes
+From public GitHub activity:
+
+- 2022: 25 pull requests, 10 issues
+- 2023: 83 pull requests, 19 issues
+- 2024: continued contributions in early 2024
+
+The pattern is consistent: I usually work on hard system boundaries rather than surface features.
+
+## What I Tend To Work On
+
+- Multi-catalog architecture and Hive Metastore integration
+- HDFS behavior, Kerberos edge cases, and external table reliability
+- SQL cache correctness across distributed FE nodes
 - Spark SQL and Trino dialect compatibility
-- replay, metadata sync, and failure recovery issues in distributed deployments
+- Replay, metadata sync, failure recovery, and crash diagnosis
+- Query engine behavior where correctness matters more than demos
 
-That pattern reflects how I usually work: diagnose production-facing failures, narrow the fault domain, and push fixes into the system boundary where correctness matters.
-
-## Technical Stack
+## Technical Profile
 
 - Languages: Java, C++, Python, Scala, SQL
 - Systems: Apache Doris, Spark ecosystem, Hive/HMS, HDFS
-- Themes: OLAP, distributed systems, metadata, query planning, compatibility, reliability engineering
-
-## Current Interests
-
-- Faster and safer analytical infrastructure
-- Privacy-preserving data systems
-- LLM engineering platforms and workflow tooling
-- Performance work for large-scale query systems
+- Strengths: root-cause analysis, distributed debugging, compatibility work, correctness under production pressure
 
 ## Working Style
 
-- Bias toward root-cause analysis over symptom patching
-- Prefer simple system boundaries and explicit invariants
-- Care about correctness first, then throughput, then polish
+- Problem-driven, not trend-driven
+- Prefer explicit invariants over accidental behavior
+- Fix the fault domain, not just the symptom
+- Optimize for correctness first, then throughput and maintainability
+
+## Current Status
+
+My public GitHub activity is lower than it was during 2022 to 2024, but that period reflects my strongest open contribution footprint and the kind of engineering problems I am best at solving.
 
 ## Contact
 
 - GitHub: [@dutyu](https://github.com/dutyu)
-
