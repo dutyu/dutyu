@@ -1,83 +1,84 @@
+<div align="center">
+
 # Xiangyu Wang
 
-```text
-Apache Doris Committer
+**Apache Doris Committer**
+
 Distributed Systems, Data Infrastructure, and Agent Engineering
+
 Shenzhen, China
-```
 
-I work on systems where correctness, scale, and operational reliability matter: risk systems, data infrastructure, query engines, Java runtime diagnostics, and more recently, agent engineering.
+*Building systems where correctness, scale, and reliability are non-negotiable.*
 
-## Snapshot
+</div>
 
-- Apache Doris Committer
-- Public GitHub contribution peak: 2022 to 2024
-- Background across risk engineering, architecture, MPP systems, Java diagnostics, and agent workflows
-- Recent focus: agent systems, code agents, and standardized development workflow plugins
+---
+
+## About
+
+I have worked across several layers of engineering over the past decade:
+
+- risk control systems for online lending
+- architecture and MPP / OLAP infrastructure
+- Java runtime diagnostics and production troubleshooting
+- agent systems and code-agent workflow design
+
+My public open-source footprint is strongest around Apache Doris. More recently, a significant part of my work has been focused on agent principles, practical agent systems, and standardized plugin-based development workflows.
 
 ## Experience
 
-### 2016 to 2019
+**2016 - 2019**
 
-R&D in online lending risk control:
+Risk engineering for online lending systems.
 
 - relationship graph and graph-based risk analysis
 - feature engineering for decision systems
 - rule engine design and development
 
-### 2019 to 2024
+**2019 - 2024**
 
-Company architect, with parallel work on MPP and Doris-related systems:
+Company architect, with parallel work on MPP and Doris-related systems.
 
 - MPP / OLAP infrastructure
 - distributed metadata, external catalogs, and query correctness
-- Java performance diagnosis and Java Flight Recorder based troubleshooting
+- Java performance diagnosis
+- Java Flight Recorder based troubleshooting
 
-### 2024 to 2026
+**2024 - 2026**
 
-Focused on agent engineering:
+Focused on agent engineering.
 
 - agent principles and system design
 - practical agent workflows
 - code agents as an engineering interface
-- standardized, generalized plugin-based development workflows
+- standardized, generalized plugin-based development workflow plugins
 
-## Open Source Track Record
+## Open Source
 
-My most visible public open-source work is centered on Apache Doris.
+My most visible public work is centered on Apache Doris.
 
 - 2022: 25 pull requests, 10 issues
 - 2023: 83 pull requests, 19 issues
 - 2024: continued contributions in early 2024
 
-## Selected Areas
+Selected areas:
 
-- Multi-catalog architecture and Hive Metastore integration
+- multi-catalog architecture and Hive Metastore integration
 - HDFS, Kerberos, and external table reliability
 - SQL cache correctness across distributed FE nodes
 - Spark SQL and Trino dialect compatibility
-- Replay, metadata sync, failure recovery, and crash diagnosis
-- Runtime diagnostics and production troubleshooting
-- Agent architecture and code-agent workflow standardization
+- replay, metadata sync, failure recovery, and crash diagnosis
 
-## Technical Profile
+## Focus
 
-- Languages: Java, C++, Python, Scala, SQL
-- Systems: Apache Doris, Spark ecosystem, Hive/HMS, HDFS
-- Domains: risk engineering, feature engineering, rule engines, OLAP, distributed systems, agent workflows
-- Strengths: root-cause analysis, distributed debugging, compatibility work, runtime diagnostics, correctness under production pressure
-
-## Working Style
-
-- Problem-driven, not trend-driven
-- Prefer explicit invariants over accidental behavior
-- Fix the fault domain, not just the symptom
-- Optimize for correctness first, then throughput and maintainability
-
-## Current Status
-
-My public GitHub activity is lower than it was during 2022 to 2024, but that period reflects my strongest open contribution footprint. More recently, my work has been concentrated on agent systems and generalized code-agent development workflows outside public GitHub.
+- distributed systems
+- OLAP and query engines
+- metadata and compatibility
+- runtime diagnostics
+- agent architecture
+- code-agent workflow standardization
 
 ## Contact
 
 - GitHub: [@dutyu](https://github.com/dutyu)
+
